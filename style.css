@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(203, 233, 233);
+    margin: 0px;
+    padding: 0;
+}
+
+.lancamento {
+    background-color: #ff0080;
+}
+
+.lancamento p {
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 250;
+    font-size: 14px;
+}
+
+.lancamento a {
+    color: white;
+}
+
+.cabecalho {
+    background-color: #f7f7f7;
+}
+
+.cabecalho-first-row {
+    padding: 8px 20px;
+}
+
+.buscar p, .buscar input, .logo, .buscar, .usuario {
+    display: inline-block;
+}
+
+.logo{
+    margin: 12px;
+    padding-left: 10px;
+    height: 42px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.logo img{
+    height: 32.34px;
+}
+
+.buscar{
+    margin: 12px;
+    padding-left: 10px;
+    background-color: white             ;
+    height: 42px;
+    border-radius: 10px;
+
+}
+
+.buscar input{
+    width: 978px;
+    padding: 1px 2px 1px 0;
+    height: 42px;
+    border: none;
+    background-color: transparent;
+
+}
+
+.buscar img {
+    height: 20px;
+    vertical-align: text-bottom;
+}
+
+.usuario {    
+    margin-top: 5px;
+}
+
+.usuario img{
+    height: 20px;
+    vertical-align: middle;
+
+}
+
+#caminhao {
+    height: 17px;
+    margin-left: 13px;
+    margin-right: 2px;
+}
+
+#login {
+    padding: 0 15px 0 15px;
+}
+
+#carrinho {
+    padding-left: 5px;
+    height: 22px;
+}
+
+.rastreio-texto{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho-second-row {
+    padding: 0px 8px 10px 8px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0 15px;
+}
+
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+.barra ul{
+    list-style: none;
+}
+
+.barra ul li a {
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    height: 26px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 0;  
+}
+
+.barra{
+    background-color: #ff0080;
+}

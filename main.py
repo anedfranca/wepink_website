@@ -1,1 +1,0 @@
-print("meu humor está HORRIVEL")
