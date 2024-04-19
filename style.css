@@ -127,6 +127,20 @@ footer {
     margin-top: 350px;
 }
 
+.bloco0{
+    display: flex;
+}
+
+.bloco2{
+    flex: 1;
+    background-color: #ff0080;
+}
+
+.bloco3{
+    flex: 1;
+    background-color: #ff0080;
+}
+
 .barra ul{
     list-style: none;
 }
@@ -142,5 +156,13 @@ footer {
 }
 
 .barra{
+    padding-top: 86px;
     background-color: #ff0080;
+    flex: 1;
 }
+
+.logo-barra {
+    padding-left: 40px;
+}
+
+

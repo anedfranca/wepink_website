@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+}
+
+.b1{
+    background-color: 	#8B008B;
+    display: block; /*div ja eh block*/
+    height: 25vh;
+}
+
+.paib2b3{
+    display: flex;
+}
+
+.paib2b3, .b2, .b3 {
+    height: 50vh;
+}
+
+.b2{
+    background-color: #7B68EE;
+    flex: 1;
+}
+
+
+.b3 {
+    background-color: #6A5ACD;
+    flex: 1;
+}
+
+.b4a7, .b4, .b5, .b6, .b7{
+    height: 25vh;
+}
+
+.b4a7{
+    display: flex;
+}
+
+.b4{
+    background-color: #DDA0DD;
+    flex: 1;
+}
+
+.b5{
+    background-color: #EE82EE;
+    flex: 1;
+}
+
+.b6{
+    background-color: #DA70D6;
+    flex: 1;
+}
+
+.b7{
+    background-color: #FF00FF;
+    flex: 1;
+}

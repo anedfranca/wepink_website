@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+div {
+    height: 100px;
+}
+
+.bloco0 {
+    display: flex;
+    background-color: aquamarine;
+    height: 70vh;
+}
+
+.bloco0 div {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco1 {
+    background-color: red;
+    flex: 2;
+    height: 70vh;
+}
+
+.bloco2 {
+    flex: 2;
+    background-color: fuchsia;
+    height: 70vh;
+}
+
+.bloco3 {
+    flex: 4;
+    background-color: yellow;
+    height: 70vh;
+}
+
+.bloco4 {
+    height: 30vh;
+    background-color: blue;
+}
