@@ -127,17 +127,22 @@ footer {
     margin-top: 350px;
 }
 
-.bloco0{
+.bloco0 {
     display: flex;
-}
-
-.bloco2{
-    flex: 1;
     background-color: #ff0080;
 }
 
-.bloco3{
+.bloco1 {
     flex: 1;
+}
+
+.bloco2 {
+    flex: 3;
+    background-color: #ff0080;;
+}
+
+.bloco3{
+    flex: 3;
     background-color: #ff0080;
 }
 
@@ -158,11 +163,65 @@ footer {
 .barra{
     padding-top: 86px;
     background-color: #ff0080;
-    flex: 1;
+    flex: 2;
 }
 
 .logo-barra {
     padding-left: 40px;
 }
 
+.logo-barra img {
+    height: 40px;
+}
 
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.bloco2 img{
+    height: 52px;
+    padding: 106px 10px;
+}
+
+.bloco3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.cartoes {
+    display:flex;
+    justify-content: center;
+}
+
+.cartoes img {
+    height: 40px;
+    padding: 20px 7px;
+}
+
+#amex {
+    padding-left: 2px;
+}
+
+.tipo-pagamentos {
+    display: flex;
+    justify-content: center;
+}
+
+.tipo-pagamentos img {
+    padding: 0 7px;
+    height: 56px;
+}
+
+.direitos-autorais p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #ff0080;
+    padding: 80px 0;
+    margin: 0;
+}

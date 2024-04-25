@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+}
+
+.ab {
+    display: flex;
+    height: 25vh;
+}
+
+.a, .b {
+    flex: 1;
+    height: 25vh;
+}
+
+.a{
+    background-color: pink;
+}
+
+.b {
+    background-color: fuchsia;
+}
+
+.c{
+    background-color: aqua;
+    height: 10vh;
+}
+
+.def{
+    display: flex;
+    height: 40vh;
+}
+
+.d{
+    flex: 1;
+    height: 40vh;
+    background-color: #C71585;
+}
+
+.e{
+    flex: 8;
+    height: 40vh;
+    background-color: #FF69B4;
+}
+.f{
+    flex: 1;
+    height: 40vh;
+    background-color: #FFC0CB;
+}
+
+.ghij{
+    height: 25vh;
+    display: flex;
+}
+
+.g {
+    flex: 2;
+    height: 25vh;
+    background-color: #DB7093;
+}
+
+.hi {
+    height: 25vh;
+    flex: 6;
+}
+
+.h {
+    background-color: #EE82EE;
+    height: 12.5vh;
+}
+
+.i {
+    background-color: hotpink;
+    height: 12.5vh;
+}
+
+.j{
+    background-color: #C71585;
+    height: 25vh;
+    flex: 2;
+}
