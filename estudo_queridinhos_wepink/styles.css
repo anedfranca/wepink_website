@@ -2,6 +2,79 @@
     color: #ff0080;
     text-align: center;
     font-size: 48px;
-    font-family: Century Gothic,Montserrat,San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    font-family: "Century Gothic", Montserrat;
     font-weight: 600;
+}
+
+.pai-produtos {
+    display: flex;
+}
+
+.produto {
+    padding: 0 15px;
+}
+
+.produto-a, .produto-b, .produto-c, .produto-d {
+    flex: 2;
+}
+
+.gordurinha {
+    flex: 1;
+    background-color: aqua;
+}
+
+.pai-produtos img{
+    height: 37vh;
+    border-radius: 20px;
+}
+
+.produto-titulo{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px 0 28px 0;
+    margin: 0;
+}
+
+.produto-descricao{
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+    padding: 4px 0;
+}
+
+.pai-produtos del {
+    font-size: 14px;
+    color: #8d8d8d;
+    font-family: "Montserrat";
+    font-weight: 600;
+    display: block;
+}
+
+.produto-preco{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.produto-preco, .produto-parcelas{
+    display: inline-block;
+}
+
+.produto p, .produto-a, .produto-b, .produto-c, .produto-d {
+    font-family: "Montserrat", San Francisco,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.pai-comprar {
+    display: flex;
+}
+
+#btn-comprar {
+    flex: 8;
+}
+
+#btn-carrinho {
+    margin-left: 8px;
+    flex: 2;
 }
